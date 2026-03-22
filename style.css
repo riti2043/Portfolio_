@@ -76,8 +76,11 @@ background-attachment: fixed;
   align-items: center;
   justify-content: space-between;
   padding: px 2px;
-  background: transparent;
-  border-bottom: 1px solid rgba(200, 200, 255, 0.08);
+  background: rgba(5, 2, 18, 0.8);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-bottom: px solid rgba(192, 192, 192, 0.74);
+  box-shadow: 0 2px 8px rgba(192, 192, 192, 0.847);
 }
 .nav-name {
   font-family: 'Dawning of a New Day', cursive;
@@ -89,13 +92,14 @@ background-attachment: fixed;
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 16px;
+  gap: 30px;
   flex-wrap: nowrap;
 }
 .nav-links a {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.92rem;
-  color: rgba(200, 195, 255, 0.7);
+  font-family: 'Silkscreen';
+color: rgb(180, 174, 174);
+  font-size: 0.99rem;
+  
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -119,14 +123,14 @@ main {
 }
 
 .about-heading {
-  font-family: 'Space Mono', monospace;
-  font-size: 3.5rem;
-  color: rgba(220, 215, 255, 0.95);
+  font-family: 'Silkscreen';
+  font-size: 5rem;
+  color: rgba(188, 186, 201, 0.95);
   margin-bottom: 24px;
 }
 
 .about-text {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Silkscreen';
   font-size: 0.95rem;
   color: rgba(200, 195, 255, 0.7);
   line-height: 1.9;
@@ -160,7 +164,7 @@ main {
 }
 
 .skills-heading {
-  font-family: 'Dawning of a New Day', cursive;
+  font-family: 'Silkscreen';
   text-align: center;
   font-size: 3rem;
   color: rgba(220, 215, 255, 0.95);
@@ -169,7 +173,7 @@ main {
 
 .skills-subheading {
   font-family: 'Space Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 1.4rem;
   color: rgba(200, 195, 255, 0.5);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -188,12 +192,12 @@ main {
 
 .skill-tag {
   font-family: 'Space Mono', monospace;
-  font-size: 0.78rem;
+  font-size: 1.4rem;
   color: rgba(200, 195, 255, 0.75);
-  border: 1px solid rgba(200, 195, 255, 0.2);
+  border: 1px solid rgba(236, 235, 243, 0);
   padding: 6px 16px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(5, 2, 18, 0.8);
   letter-spacing: 0.05em;
   display: flex;
   align-items: center;
@@ -201,13 +205,14 @@ main {
 }
 
 .skill-tag i {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  background: rgba(5, 2, 18, 0.8);
 }
 
 .skill-tag.highlight {
-  color: rgba(200, 230, 255, 0.85);
-  border-color: rgba(150, 200, 255, 0.35);
-  background: rgba(150, 200, 255, 0.06);
+ color: rgba(200, 195, 255, 0.75);
+  border-color: rgba(85, 130, 175, 0);
+ background: rgba(5, 2, 18, 0.8);
 }
 
 @media (max-width: 600px) {
@@ -229,7 +234,7 @@ main {
 }
 
 .projects-heading {
-  font-family: 'Dawning of a New Day', cursive;
+  font-family: 'Silkscreen';
   font-size: 3rem;
   color: rgba(220, 215, 255, 0.95);
   position: absolute;
@@ -254,7 +259,7 @@ main {
 }
 
 .ind-num {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Silkscreen';
   font-size: 0.75rem;
   color: rgba(200, 195, 255, 0.35);
   background: none;
@@ -309,10 +314,10 @@ main {
   overflow: hidden;
   scroll-snap-align: start;
   min-height: 360px;
-  border: 1px solid rgba(200, 195, 255, 0.15);
+  border: 1px solid rgba(200, 195, 255, 0.486);
   transition: transform 0.5s ease, opacity 0.5s ease, clip-path 0.5s ease;
   transform: scale(0.92);
-  opacity: 0.4;
+  opacity: 0.7;
   clip-path: inset(5% 10% round 24px);
 }
 
@@ -330,7 +335,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: rgba(20, 10, 60, 0.85);
+  background: rgba(5, 2, 18, 0.85);
   min-height: 360px;
 }
 
@@ -419,7 +424,7 @@ main {
 }
 
 .card-tag {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Silkscreen' ;
   font-size: 0.7rem;
   color: rgba(200, 195, 255, 0.75);
   border: 1px solid rgba(200, 195, 255, 0.2);
@@ -429,7 +434,7 @@ main {
 }
 
 .card-btn {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Silkscreen';
   font-size: 0.75rem;
   color: rgba(200, 195, 255, 0.8);
   border: 1px solid rgba(200, 195, 255, 0.25);
@@ -491,7 +496,7 @@ main {
 }
 
 .ind-num {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Silkscreen';
   font-size: 0.75rem;
   color: rgba(200, 195, 255, 0.35);
   background: none;
@@ -578,14 +583,14 @@ main {
 }
 
 .contact-heading {
-  font-family: 'Dawning of a New Day', cursive;
+  font-family: 'Silkscreen';
   font-size: 3rem;
   color: rgba(220, 215, 255, 0.95);
   margin-bottom: 12px;
 }
 
 .contact-message {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Silkscreen';
   font-size: 0.85rem;
   color: rgba(200, 195, 255, 0.55);
   letter-spacing: 0.05em;
@@ -611,7 +616,7 @@ main {
   align-items: flex-start;
 }
 .form-input {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Silkscreen';
   font-size: 0.85rem;
   color: rgba(220, 215, 255, 0.85);
   background: rgba(255, 255, 255, 0.03);
@@ -637,7 +642,7 @@ main {
 }
 
 .form-btn {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Silkscreen';
   font-size: 0.78rem;
   color: rgba(220, 215, 255, 0.9);
   background: rgba(255, 255, 255, 0.04);
@@ -667,7 +672,7 @@ main {
 }
 
 .contact-link {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Silkscreen';
   font-size: 0.85rem;
   color: rgba(200, 195, 255, 0.7);
   text-decoration: none;
@@ -726,13 +731,13 @@ main {
 }
 .footer-name {
   font-family: 'Dawning of a New Day', cursive;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: rgba(220, 215, 255, 0.7);
 }
 
 .footer-copy {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.7rem;
+  font-family: 'Silkscreen';
+  font-size: 1rem;
   color: rgba(200, 195, 255, 0.35);
   letter-spacing: 0.05em;
 }
