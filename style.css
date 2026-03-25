@@ -100,8 +100,10 @@ body {
 }
 
 .nav-links a {
-  font-family: 'Silkscreen', cursive;
-  font-size: 0.75rem;
+  font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
+  font-size: 1.4rem;
   color: rgb(180, 174, 174);
   text-decoration: none;
   letter-spacing: 0.03em;
@@ -131,9 +133,11 @@ main {
 
 .shimmer-text {
   position: relative;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Syne", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   text-transform: uppercase;
-  font-size: 2.5em;
+  font-size: 3.0rem;
   letter-spacing: 4px;
   background: linear-gradient(90deg, #302b63, #fff, #fff, #302b63);
   background-size: 200% auto;
@@ -151,7 +155,9 @@ main {
 }
 
 .about-text {
-  font-family: 'Silkscreen', cursive;
+  font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 0.95rem;
   color: rgba(200, 195, 255, 0.7);
   line-height: 1.9;
@@ -167,7 +173,9 @@ main {
 }
 
 .skills-heading {
-  font-family: 'Silkscreen', cursive;
+  font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   text-align: center;
   font-size: 3rem;
   color: rgba(220, 215, 255, 0.95);
@@ -175,7 +183,9 @@ main {
 }
 
 .skills-subheading {
-  font-family: 'Space Mono', monospace;
+ font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 1rem;
   color: rgba(200, 195, 255, 0.5);
   letter-spacing: 0.1em;
@@ -194,7 +204,9 @@ main {
 }
 
 .skill-tag {
-  font-family: 'Space Mono', monospace;
+ font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 0.85rem;
   color: rgba(200, 195, 255, 0.75);
   border: 1px solid rgba(200, 195, 255, 0.2);
@@ -212,9 +224,11 @@ main {
 }
 
 .skill-tag.highlight {
-  color: rgba(200, 230, 255, 0.85);
-  border-color: rgba(150, 200, 255, 0.35);
-  background: rgba(150, 200, 255, 0.06);
+  color: rgba(200, 195, 255, 0.75);
+  border: 1px solid rgba(200, 195, 255, 0.2);
+  padding: 6px 16px;
+  border-radius: 20px;
+  background: rgba(5, 2, 18, 0.8);
 }
 
 /* ── Projects ── */
@@ -236,7 +250,9 @@ main {
 }
 
 .projects-heading {
-  font-family: 'Silkscreen', cursive;
+  font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 3rem;
   color: rgba(220, 215, 255, 0.95);
   position: absolute;
@@ -259,7 +275,9 @@ main {
 }
 
 .ind-num {
-  font-family: 'Silkscreen', cursive;
+  font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 0.75rem;
   color: rgba(200, 195, 255, 0.35);
   background: none;
@@ -363,8 +381,9 @@ main {
 }
 
 .slide-title {
-  font-family: 'Dawning of a New Day', cursive;
-  font-size: 3rem;
+   font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   color: rgba(230, 225, 255, 0.95);
   line-height: 1.2;
   margin-bottom: 16px;
@@ -384,7 +403,9 @@ main {
 }
 
 .slide-desc {
-  font-family: 'Space Mono', monospace;
+ font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 0.75rem;
   color: rgba(200, 195, 255, 0.65);
   line-height: 1.8;
@@ -429,7 +450,9 @@ main {
 }
 
 .card-tag {
-  font-family: 'Silkscreen', cursive;
+   font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 0.7rem;
   color: rgba(200, 195, 255, 0.75);
   border: 1px solid rgba(200, 195, 255, 0.2);
@@ -439,7 +462,9 @@ main {
 }
 
 .card-btn {
-  font-family: 'Silkscreen', cursive;
+  font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 0.75rem;
   color: rgba(200, 195, 255, 0.8);
   border: 1px solid rgba(200, 195, 255, 0.25);
@@ -489,14 +514,18 @@ main {
 }
 
 .contact-heading {
-  font-family: 'Silkscreen', cursive;
+  font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 3rem;
   color: rgba(220, 215, 255, 0.95);
   margin-bottom: 12px;
 }
 
 .contact-message {
-  font-family: 'Silkscreen', cursive;
+   font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 0.85rem;
   color: rgba(200, 195, 255, 0.55);
   letter-spacing: 0.05em;
@@ -523,7 +552,9 @@ main {
 }
 
 .form-input {
-  font-family: 'Silkscreen', cursive;
+   font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 0.85rem;
   color: rgba(220, 215, 255, 0.85);
   background: rgba(5, 2, 18, 0.85);
@@ -548,7 +579,9 @@ main {
 }
 
 .form-btn {
-  font-family: 'Silkscreen', cursive;
+   font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 0.78rem;
   color: rgba(220, 215, 255, 0.9);
   background: rgba(255, 255, 255, 0.04);
@@ -576,7 +609,9 @@ main {
 }
 
 .contact-link {
-  font-family: 'Silkscreen', cursive;
+   font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 0.85rem;
   color: rgba(200, 195, 255, 0.7);
   text-decoration: none;
@@ -611,7 +646,7 @@ main {
   position: relative;
   z-index: 10;
   padding: 24px 32px;
-  max-width: 600px;
+  max-width: 1500px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -627,14 +662,18 @@ main {
 }
 
 .footer-copy {
-  font-family: 'Silkscreen', cursive;
+   font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
   font-size: 0.7rem;
   color: rgba(200, 195, 255, 0.35);
   letter-spacing: 0.05em;
 }
 .cv-btn {
-  font-family: 'Silkscreen', cursive;
-  font-size: 0.72rem;
+  font-family: "Syne", sans-serif;
+  font-weight:400;
+  font-style: normal;
+  font-size: 1.0rem;
   color: rgba(200, 195, 255, 0.8);
   border: 1px solid rgba(200, 195, 255, 0.25);
   padding: 8px 20px;
