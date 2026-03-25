@@ -78,7 +78,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 12px 32px;
-  background: rgba(5, 2, 18, 0.8);
+  background: transparent;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(192, 192, 192, 0.2);
@@ -526,15 +526,14 @@ main {
   font-family: 'Silkscreen', cursive;
   font-size: 0.85rem;
   color: rgba(220, 215, 255, 0.85);
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(200, 195, 255, 0.15);
-  border-radius: 10px;
+  background: rgba(5, 2, 18, 0.85);
+  border: 1px solid rgba(200, 195, 255, 0.2);
+  border-radius: 12px;
   padding: 16px 20px;
   outline: none;
   transition: border-color 0.3s ease;
   width: 100%;
 }
-
 .form-input::placeholder {
   color: rgba(200, 195, 255, 0.3);
 }
@@ -582,13 +581,16 @@ main {
   color: rgba(200, 195, 255, 0.7);
   text-decoration: none;
   border: 1px solid rgba(200, 195, 255, 0.2);
-  padding: 12px 28px;
-  border-radius: 30px;
+  padding: 14px 28px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   gap: 10px;
   letter-spacing: 0.05em;
   transition: background 0.3s ease, color 0.3s ease;
+  background: rgba(5, 2, 18, 0.85);
+  width: 200px;
+  justify-content: flex-start;
 }
 
 .contact-link i,
@@ -629,6 +631,24 @@ main {
   font-size: 0.7rem;
   color: rgba(200, 195, 255, 0.35);
   letter-spacing: 0.05em;
+}
+.cv-btn {
+  font-family: 'Silkscreen', cursive;
+  font-size: 0.72rem;
+  color: rgba(200, 195, 255, 0.8);
+  border: 1px solid rgba(200, 195, 255, 0.25);
+  padding: 8px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.cv-btn:hover {
+  background: rgba(200, 195, 255, 0.1);
+  color: rgba(255, 255, 255, 0.95);
 }
 
 /* ── Mobile ── */
