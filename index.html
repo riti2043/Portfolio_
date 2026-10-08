@@ -88,70 +88,103 @@
     <button class="carousel-arrow left" id="arrow-left">&#9664;</button>
 
     <div class="carousel" id="carousel">
+      <!-- ── Slide 1: Rune AI ── -->
       <div class="carousel-slide" id="slide-1">
+        <div class="slide-media">
+          <div class="slide-img-placeholder">
+            <span class="placeholder-icon">🖼️</span>
+            <span class="placeholder-text">UI Screenshot</span>
+          </div>
+        </div>
         <div class="slide-content">
-          <span class="slide-label">Project One</span>
-          <h3 class="slide-title">Your Big <em>Idea</em></h3>
-          <p class="slide-desc">A short description of what this project does and what problem it solves.</p>
+          <span class="slide-label">Agentic AI · 01</span>
+          <h3 class="slide-title">Rune <em>AI</em></h3>
+          <p class="slide-desc">A personal AI assistant powered by a local Ollama model and a Gradio web UI. Rune runs entirely on your machine — no API keys, no data leaks — offering a fast, private, conversational experience with memory and tool-calling capabilities.</p>
           <div class="slide-tags">
             <span class="card-tag">Python</span>
-            <span class="card-tag">ML</span>
-            <span class="card-tag">Docker</span>
+            <span class="card-tag">Gradio</span>
+            <span class="card-tag">Ollama</span>
+            <span class="card-tag">LLM</span>
+            <span class="card-tag">Agentic AI</span>
           </div>
           <div class="slide-links">
-            <a href="#" class="card-btn">Live</a>
-            <a href="#" class="card-btn">GitHub</a>
+            <a href="https://huggingface.co/spaces/riti2043/Rune" target="_blank" class="card-btn">🚀 Live Demo</a>
+            <a href="https://github.com/riti2043/Personal-AI-assistant" target="_blank" class="card-btn">GitHub</a>
           </div>
         </div>
       </div>
 
+      <!-- ── Slide 2: Sanketa ── -->
       <div class="carousel-slide" id="slide-2">
-        <div class="slide-content">
-          <span class="slide-label">Project Two</span>
-          <h3 class="slide-title">Built for <em>Speed</em></h3>
-          <p class="slide-desc">A short description of what this project does and what problem it solves.</p>
-          <div class="slide-tags">
-            <span class="card-tag">C++</span>
-            <span class="card-tag">Linux</span>
-            <span class="card-tag">Bash</span>
-          </div>
-          <div class="slide-links">
-            <a href="#" class="card-btn">Live</a>
-            <a href="#" class="card-btn">GitHub</a>
+        <div class="slide-media">
+          <div class="slide-video-placeholder">
+            <span class="placeholder-icon">🎬</span>
+            <span class="placeholder-text">Demo Video Coming Soon</span>
+            <span class="placeholder-sub">Drop your video file path here</span>
           </div>
         </div>
-      </div>
-
-      <div class="carousel-slide" id="slide-3">
         <div class="slide-content">
-          <span class="slide-label">Project Three</span>
-          <h3 class="slide-title">Data that <em>Speaks</em></h3>
-          <p class="slide-desc">A short description of what this project does and what problem it solves.</p>
+          <span class="slide-label">Computer Vision · 02</span>
+          <h3 class="slide-title">Sanketa <em>Touch</em></h3>
+          <p class="slide-desc">A fully touchless, sterile medical imaging system for operating theatres. Using a webcam and MediaPipe hand tracking, surgeons control DICOM X-Ray viewers and 3D CT reconstructions through natural gestures — no mouse, no keyboard, no infection risk.</p>
           <div class="slide-tags">
-            <span class="card-tag">SQL</span>
-            <span class="card-tag">Tableau</span>
             <span class="card-tag">Python</span>
+            <span class="card-tag">MediaPipe</span>
+            <span class="card-tag">PyQt6</span>
+            <span class="card-tag">VTK</span>
+            <span class="card-tag">DICOM</span>
+            <span class="card-tag">Computer Vision</span>
           </div>
           <div class="slide-links">
-            <a href="#" class="card-btn">Live</a>
-            <a href="#" class="card-btn">GitHub</a>
+            <a href="https://github.com/riti2043/Marvel-GPP" target="_blank" class="card-btn">Source Code</a>
           </div>
         </div>
       </div>
 
-      <div class="carousel-slide" id="slide-4">
+      <!-- ── Slide 3: Peer Learn ── -->
+      <div class="carousel-slide" id="slide-3">
+        <div class="slide-media">
+          <div class="slide-img-placeholder coming-soon-media">
+            <span class="placeholder-icon">⚙️</span>
+            <span class="placeholder-text">In Development</span>
+          </div>
+        </div>
         <div class="slide-content">
-          <span class="slide-label">Project Four</span>
-          <h3 class="slide-title">Your Next <em>Project</em></h3>
-          <p class="slide-desc">A short description of what this project does and what problem it solves.</p>
+          <span class="slide-label">Development · 03</span>
+          <h3 class="slide-title">Peer <em>Learn</em></h3>
+          <p class="slide-desc">A collaborative peer-to-peer learning platform currently in development. Stay tuned — links and details will be added once the project launches.</p>
           <div class="slide-tags">
-            <span class="card-tag">Git</span>
-            <span class="card-tag">Docker</span>
-            <span class="card-tag">SQL</span>
+            <span class="card-tag">Coming Soon</span>
           </div>
           <div class="slide-links">
-            <a href="#" class="card-btn">Live</a>
-            <a href="#" class="card-btn">GitHub</a>
+            <a href="#" class="card-btn" style="opacity:0.4;cursor:not-allowed;">🔒 Not Yet Live</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Slide 4: View More ── -->
+      <div class="carousel-slide" id="slide-4">
+        <div class="slide-content view-more-slide">
+          <span class="slide-label">Explore · 04</span>
+          <h3 class="slide-title">View <em>More</em></h3>
+          <p class="slide-desc">Browse more projects by category. Click a tag to see what else I've built.</p>
+          <div class="view-more-categories">
+            <button class="view-more-btn" data-category="computer-vision" onclick="openCategory('computer-vision')">
+              <span class="vm-icon">👁️</span>
+              <span>Computer Vision</span>
+            </button>
+            <button class="view-more-btn" data-category="agentic-ai" onclick="openCategory('agentic-ai')">
+              <span class="vm-icon">🤖</span>
+              <span>Agentic AI</span>
+            </button>
+            <button class="view-more-btn" data-category="development" onclick="openCategory('development')">
+              <span class="vm-icon">💻</span>
+              <span>Development</span>
+            </button>
+            <button class="view-more-btn" data-category="ai-ml" onclick="openCategory('ai-ml')">
+              <span class="vm-icon">🧠</span>
+              <span>AI / ML</span>
+            </button>
           </div>
         </div>
       </div>
@@ -225,7 +258,50 @@
   });
 
   goToSlide(0);
+
+  /* ── View More category handler ── */
+  const categoryLabels = {
+    'computer-vision': 'Computer Vision',
+    'agentic-ai': 'Agentic AI',
+    'development': 'Development',
+    'ai-ml': 'AI / ML'
+  };
+
+  const categoryModal = document.getElementById('categoryModal');
+  const categoryModalTitle = document.getElementById('categoryModalTitle');
+  const categoryModalSub = document.getElementById('categoryModalSub');
+
+  function openCategory(cat) {
+    // TODO: Replace alert/placeholder with real content when ready
+    categoryModalTitle.textContent = categoryLabels[cat] || cat;
+    categoryModalSub.textContent = 'More projects in this category will appear here soon.';
+    categoryModal.classList.add('open');
+  }
+
+  document.getElementById('categoryModalClose').addEventListener('click', () => {
+    categoryModal.classList.remove('open');
+  });
+
+  categoryModal.addEventListener('click', (e) => {
+    if (e.target === categoryModal) categoryModal.classList.remove('open');
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') categoryModal.classList.remove('open');
+  });
 </script>
+
+<!-- ── Category Modal Overlay ── -->
+<div class="category-modal-overlay" id="categoryModal">
+  <div class="category-modal">
+    <p class="slide-label" style="display:block;margin-bottom:12px;opacity:1;">Category</p>
+    <h2 class="category-modal-title" id="categoryModalTitle">Projects</h2>
+    <p class="category-modal-sub" id="categoryModalSub">Content coming soon.</p>
+    <button class="category-modal-close" id="categoryModalClose">← Close</button>
+  </div>
+</div>
+
+
 
 </body>
 </html>

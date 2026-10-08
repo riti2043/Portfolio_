@@ -232,6 +232,172 @@ main {
 }
 
 /* ── Projects ── */
+@media (max-width: 600px) {
+  .skills-section {
+    padding: 60px 20px;
+  }
+}
+/* ── Slide Media Panel ── */
+
+.slide-media {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.slide-img-placeholder,
+.slide-video-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: rgba(5, 2, 18, 0.6);
+  border-bottom: 1px dashed rgba(200, 195, 255, 0.1);
+}
+
+.coming-soon-media {
+  background: rgba(10, 5, 30, 0.7);
+}
+
+.placeholder-icon {
+  font-size: 2.5rem;
+  opacity: 0.35;
+}
+
+.placeholder-text {
+  font-family: 'Silkscreen';
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(200, 195, 255, 0.3);
+}
+
+.placeholder-sub {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.55rem;
+  color: rgba(200, 195, 255, 0.18);
+  letter-spacing: 0.05em;
+}
+
+/* ── View More Slide ── */
+
+.view-more-slide {
+  justify-content: center !important;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.view-more-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 8px;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform 0.5s ease 0.35s, opacity 0.5s ease 0.35s;
+}
+
+.carousel-slide.active .view-more-categories {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.view-more-btn {
+  font-family: 'Silkscreen';
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  color: rgba(200, 195, 255, 0.85);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(200, 195, 255, 0.25);
+  border-radius: 14px;
+  padding: 12px 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+.view-more-btn:hover {
+  background: rgba(200, 195, 255, 0.1);
+  border-color: rgba(200, 195, 255, 0.5);
+  color: rgba(255, 255, 255, 0.95);
+  transform: translateY(-2px);
+}
+
+.vm-icon {
+  font-size: 1.1rem;
+}
+
+/* ── Category Modal ── */
+
+.category-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(5, 2, 18, 0.95);
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+}
+
+.category-modal-overlay.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.category-modal {
+  max-width: 680px;
+  width: 90%;
+  text-align: center;
+}
+
+.category-modal-title {
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 2.4rem;
+  color: rgba(230, 225, 255, 0.95);
+  margin-bottom: 12px;
+}
+
+.category-modal-sub {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  color: rgba(200, 195, 255, 0.5);
+  letter-spacing: 0.08em;
+  margin-bottom: 36px;
+}
+
+.category-modal-close {
+  font-family: 'Silkscreen';
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: rgba(200, 195, 255, 0.6);
+  background: none;
+  border: 1px solid rgba(200, 195, 255, 0.2);
+  border-radius: 20px;
+  padding: 10px 24px;
+  cursor: pointer;
+  margin-top: 32px;
+  text-transform: uppercase;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.category-modal-close:hover {
+  background: rgba(200, 195, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+//* ── Projects ── */
 
 .projects-section {
   position: relative;
@@ -742,3 +908,4 @@ main {
     text-align: center;
   }
 }
+
